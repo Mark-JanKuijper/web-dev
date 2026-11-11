@@ -1,0 +1,26 @@
+
+#head {
+    background-color:#000000 ;
+    height: 100px;
+    color: #ffffff;
+    /* text align makes it so that the text is aligned with something */
+    text-align: center;
+    /* line height controls the "Y" position of the text */
+    line-height: 80px;
+    font-size: 30px;
+    font-family: "Comic Sans MS" , "Comic Sans" , cursive;
+
+}
+
+#content {
+    height: 350px;
+    width: 350px;
+    background-color: #80dff0;
+    margin-left: 0.5%;
+    margin-top: 0.5%;
+}
+
+#content img {
+    height: 90%;
+    margin-left: 10px;
+}

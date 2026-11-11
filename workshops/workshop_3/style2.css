@@ -29,6 +29,7 @@ body {
     height: 300px;
 }
 
+/* you can also specifie wich part of the code you want to change */
 #content img {
     width: 90%;
     margin-top: 10px;
