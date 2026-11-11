@@ -1,0 +1,56 @@
+
+#header {
+    background-color: #00f000;
+    height: 200px;
+}
+
+#logo {
+    background-color: #b0261d;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    line-height: 100px;
+    margin-left: 50px;
+    margin-top: 50px;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+#content {
+    background-color: cyan;
+    width: 300px;
+    height: 300px;
+}
+
+#content img {
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#content a {
+    display: block;
+    color: #104710;
+    margin-top: 20px;
+    padding-top: 50px;
+}
+
+#content span{
+    font-size: 20px;
+}
+
+#footer {
+    text-align: center;
+}
+
+#footer_detail2 {
+    text-align: right;
+    
+}
