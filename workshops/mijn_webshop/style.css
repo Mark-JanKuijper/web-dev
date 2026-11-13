@@ -12,6 +12,13 @@
 
 }
 
+#footer {
+    height: 50px;
+    background-color: #535353;
+    color: #ffffff;
+    
+}
+
 #content {
     height: 400px;
     width: 350px;
@@ -76,13 +83,35 @@
     
 }
 
+#content_detail{
+    height: 500px;
+    width: 500px;
+    background-color: #80dff0;
+    margin-left: 0.5%;
+    margin-top: 1%;
+}
+
+#content_detail img {
+    height: 81.75%;
+    width: 81.75%;
+    margin-left: 3.5%;
+    text-align: center;
+}
+
+#product_detail {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
 #info {
-    height: 400px;
+    height: 300px;
     width: 400px;
     margin-top: 50px;
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    margin-top: -10%;
+    
 }
 
 #info h2 {
