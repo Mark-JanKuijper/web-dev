@@ -29,6 +29,8 @@ body {
     /* border maakt een border omheen de blok */
  border: 1px solid #cccccc;
  /* padding is de ruimte om de inhoud en binnen een blok en word gekleurd */
+ /* oh en ook wanneer je meeteld de pixels van padding telt elke kant die je zegt */
+ /* voorbeeld is dat een blok 100 px is, als je 10 px padding erbij doet dan word het 120 px  */
  padding: 10px; 
  /* margin is buiten de padding en blok en heeft geen kleur  */
  /* margin bottom betekend dat het geeft ruimte aan de bodem  */
