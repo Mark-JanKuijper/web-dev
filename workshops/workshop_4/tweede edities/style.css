@@ -5,16 +5,61 @@
 /* then you chose the specific thing you want to change (in this case backround color) */
 /* then you change the value  */
 #header {
-    background-color: #f2f2f2;
+    background-color: #111111;
     height: 100px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 32px;
+    line-height: 100px;
 }
 
+/* class en id  */
+/* id gebruik je een keer op een pagina en voor vaste blokken */
+/* class gebruik je meerdere keren en gebruik je voor dingen die meerdere keren komen */
+
+/* body is een een exepction voor calling it */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    margin: 0px;
+}
+
+/* voor class gebruik je een . (punt) */
+.product{
+    /* border maakt een border omheen de blok */
+ border: 1px solid #cccccc;
+ /* padding is de ruimte om de inhoud en binnen een blok en word gekleurd */
+ padding: 10px; 
+ /* margin is buiten de padding en blok en heeft geen kleur  */
+ /* margin bottom betekend dat het geeft ruimte aan de bodem  */
+ margin-bottom: 20px;
+}
+
+.product img{
+    width: 200px;
+}
+
+.prijs {
+    color: #d9480f;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#container {
+    width: 960px;
+    /* dit maakt het zodat het producten in het midden van het website komen */
+    margin: 0 auto; 
+}
 #content{
-    background-color: #c9c9c9;
-    height: 400px;
+    background-color: #ffffff;
+    /* padding is dan 20 px om elke kant (boven, beneden , recht, links) binnen het blok */
+    padding: 20px;
 }
 
 #footer {
-    background-color: #b3b3b3;
-    height: 100px;
+    background-color: #333333;
+    color: #ffffff;
+    /* het is beter om met padding te doen vanwege dat het automatisch zichzelf verhoogt */
+    padding: 20px;
+    text-align: center;
 }
