@@ -1,0 +1,20 @@
+
+
+/* css is a difrent thing */
+/* first you select you thing (in this case #header) */
+/* then you chose the specific thing you want to change (in this case backround color) */
+/* then you change the value  */
+#header {
+    background-color: #f2f2f2;
+    height: 100px;
+}
+
+#content{
+    background-color: #c9c9c9;
+    height: 400px;
+}
+
+#footer {
+    background-color: #b3b3b3;
+    height: 100px;
+}
