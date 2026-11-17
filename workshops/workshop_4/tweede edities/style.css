@@ -24,6 +24,11 @@ body {
     margin: 0px;
 }
 
+.container {
+    display: flex;
+    gap: 20px;
+}
+
 /* voor class gebruik je een . (punt) */
 .product{
     /* border maakt een border omheen de blok */
