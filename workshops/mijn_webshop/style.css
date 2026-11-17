@@ -13,7 +13,7 @@
 }
 
 #footer {
-    height: 50px;
+    height: auto;
     background-color: #535353;
     color: #ffffff;
     
@@ -70,6 +70,12 @@
     font-family:"Comic Sans MS" , "Comic Sans" , cursive;
     font-weight: bold;
     text-align: center;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
 }
 
 /* hier is de style voor detail.html */
