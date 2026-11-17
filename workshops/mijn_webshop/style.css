@@ -30,8 +30,15 @@
 
 /* hier zorgt ervoor dat de producten van de website in order en netjes op een grid zijn. */
 #producten {
-    display: grid;
-    grid-template-columns: auto auto auto;
+
+     display:flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    justify-content: center; 
+
+    /* dit hier was de vorige versie */
+    /* display: grid;
+    grid-template-columns: auto auto auto;  */
 }
 
 @media (max-width: 600px) {
