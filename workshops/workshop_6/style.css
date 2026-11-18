@@ -48,6 +48,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 20px; 
+    width: 960px;
 }
 
 /* voor class gebruik je een . (punt) */
