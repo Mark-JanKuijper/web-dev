@@ -1,0 +1,133 @@
+
+
+/* css is a difrent thing */
+/* first you select you thing (in this case #header) */
+/* then you chose the specific thing you want to change (in this case backround color) */
+/* then you change the value  */
+
+/* Alle blokken: padding telt mee in de breedte */
+* {
+    box-sizing: border-box;
+}
+
+#header {
+    background-color: #111111;
+    color: #ffffff;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* dit hier control het menu van de lijsten */
+#menu {
+    display: flex;
+    gap: 20px;
+    /* list style none zorgt ervoor dat de list geen bolletjes hebt */
+    list-style: none; 
+}
+
+#menu a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* class en id  */
+/* id gebruik je een keer op een pagina en voor vaste blokken */
+/* class gebruik je meerdere keren en gebruik je voor dingen die meerdere keren komen */
+
+/* body is een een exepction voor calling it */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    margin: 0px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+}
+
+/* voor class gebruik je een . (punt) */
+.product{
+    /* border maakt een border omheen de blok */
+
+    width: 293px;
+    
+ border: 1px solid #cccccc;
+
+ border-radius: 8px;
+
+ /* padding is de ruimte om de inhoud en binnen een blok en word gekleurd */
+ /* oh en ook wanneer je meeteld de pixels van padding telt elke kant die je zegt */
+ /* voorbeeld is dat een blok 100 px is, als je 10 px padding erbij doet dan word het 120 px  */
+ padding: 15px; 
+
+ background-color: #ffffff;
+ /* margin is buiten de padding en blok en heeft geen kleur  */
+ /* margin bottom betekend dat het geeft ruimte aan de bodem  */
+
+ /* margin-bottom: 20px; */
+}
+
+.product img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.prijs {
+    color: #d9480f;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.knop {
+    display: inline-block;
+    background-color: #d9480f;
+    color: #ffffff;
+    padding: 8px 16px;
+
+    /*border radius rond af de padding */
+    border-radius: 4px;
+    /* text decoration verwijdert de lijn onder de anchor  */
+    text-decoration: none;
+}
+
+/* je kan hover gebruiken na dat je div roept */
+.knop:hover{
+    background-color: #b33c0c;
+}
+
+.detail {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.detail img {
+    width: 450px;
+    border-radius: 8px;
+}
+
+#container {
+    width: 960px;
+    /* dit maakt het zodat het producten in het midden van het website komen */
+    margin: 0 auto; 
+}
+#content{
+    background-color: #ffffff;
+    /* padding is dan 20 px om elke kant (boven, beneden , recht, links) binnen het blok */
+    padding: 20px;
+}
+
+#footer {
+    background-color: #333333;
+    color: #ffffff;
+    /* het is beter om met padding te doen vanwege dat het automatisch zichzelf verhoogt */
+    padding: 20px;
+    text-align: center;
+}
