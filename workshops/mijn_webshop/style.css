@@ -2,21 +2,34 @@
 #head {
     background-color:#000000 ;
     height: 100px;
+    margin-top: -1%;
+    width: auto;
     color: #ffffff;
     /* text align makes it so that the text is aligned with something */
     text-align: center;
     /* line height controls the "Y" position of the text */
     line-height: 80px;
     font-size: 30px;
-    font-family: "Comic Sans MS" , "Comic Sans" , cursive;
+    font-family: "Comic Sans MS" , "Comic Sans" , cursive;;
+    
+}
 
+body {
+    background-color: #176546;
+    padding: 0px;
+    margin: 0px
 }
 
 #footer {
+    margin-bottom: -2%;
+    width: auto;
     height: auto;
     background-color: #535353;
     color: #ffffff;
-    
+}
+
+#footer ul {
+    list-style: none;
 }
 
 .content {
@@ -74,8 +87,13 @@
 
 .contacts {
     display: flex;
-    justify-content: center;
+    justify-content:center;
+    text-align:center;
     color: #ffffff;
+}
+
+.contacts ul{
+    list-style: none;
 }
 
 /* hier is de style voor detail.html */
@@ -117,6 +135,7 @@
 }
 
 #info {
+    color: #ffffff;
     height: 300px;
     width: 400px;
     margin-top: 50px;
