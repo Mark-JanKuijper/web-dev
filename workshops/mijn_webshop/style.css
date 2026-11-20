@@ -38,7 +38,9 @@ body {
 
     /* hier is dat de website automatisch padding en margin geeft  */
     padding: 0px;
-    margin: 0px
+    margin: 0px;
+    font-family: "Comic Sans MS" , "Comic Sans" , cursive;
+    
 }
 
 #footer {
@@ -52,6 +54,10 @@ body {
 
 #footer ul {
     list-style: none;
+}
+
+.collab {
+    text-align: center;
 }
 
 .content {
