@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shapes.inc</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="head">
+        <h3>Welcome to Shape.and!</h3>
+        <div class="menu">
+          <ul>
+          <li>contacts </li>
+          <li>about </li>
+          <li>products </li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="producten">
+        <div class="content">
+          <img src="images/1x/circle.png" alt="Circle" />
+          <div class="name">Circle</div>
+          <div class="price">&euro; 20,99</div>
+          <div class="info_koop"><a href="detail.php">info/koop</a></div>
+        </div>
+
+        <div class="content">
+          <img src="images/1x/square.png" alt="Square" />
+          <div class="name">Square</div>
+          <div class="price">&euro; 20,99</div>
+          <div class="info_koop"><a href="detail.php">info/koop</a></div>
+        </div>
+
+        <div class="content">
+          <img src="images/1x/triangle.png" alt="Circle" />
+          <div class="name">Triangle</div>
+          <div class="price">&euro; 20,99</div>
+          <div class="info_koop"><a href="detail.php">info/koop</a></div>
+        </div>
+
+        <div class="content">
+          <img src="images/1x/rectangle.png" alt="Circle" />
+          <div class="name">Rectangle</div>
+          <div class="price">&euro; 20,99</div>
+          <div class="info_koop"><a href="detail.php">info/koop</a></div>
+        </div>
+
+        <div class="content">
+          <img src="images/1x/hexagon.png" alt="Circle" />
+          <div class="name">Hexagon</div>
+          <div class="price">&euro; 20,99</div>
+          <div class="info_koop"><a href="detail.php">info/koop</a></div>
+        </div>
+
+        <div class="content">
+          <img src="images/1x/pentagon.png" alt="Circle" />
+          <div class="name">Pentagon</div>
+          <div class="price">&euro; 20,99</div>
+          <div class="info_koop"><a href="detail.php">info/koop</a></div>
+        </div>
+
+        
+        
+      </div>
+
+      <div id="footer">
+        <ul>
+          <!-- if you want to use lists then you need to put li by the text you want to list -->
+        <li> &copy; Shape.and</li>
+        <li>&trade; Shape.and</li>
+        <div class="collab"><li>in collaboration with <a href="#">Beats</a></li></div>
+        
+      </ul>
+
+      </div>
+    </div>
+  </body>
+</html>
