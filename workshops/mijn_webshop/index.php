@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="container">
+
       <div id="head">
         <h3>Welcome to Shape.and!</h3>
         <div class="menu">
@@ -61,9 +61,6 @@
           <div class="price">&euro; 20,99</div>
           <div class="info_koop"><a href="detail.html">info/koop</a></div>
         </div>
-
-        
-        
       </div>
 
       <div id="footer">
@@ -76,6 +73,5 @@
       </ul>
 
       </div>
-    </div>
   </body>
 </html>

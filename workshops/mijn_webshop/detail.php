@@ -8,12 +8,14 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
+<?php include "includes/header.php" ?>
+
 <body>
   <div id="container">
 
     <div id="head">
       <h3>Welcome to Shape.and!</h3>
-      <div id="return"><a href="index.php">back</a></div>
+      <div id="return"><a href="index.html">back</a></div>
     </div>
 
     <div id="product_detail">
