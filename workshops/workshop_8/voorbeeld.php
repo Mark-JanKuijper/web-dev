@@ -1,4 +1,4 @@
-<?php include "includes/header.php" ?>
+<?php include "include/header.php" ?>
 
 <!DOCTYPE html>
 <html lang="nl">
@@ -31,6 +31,6 @@
    <!-- belangerijke mededeling is dat id mag alleen 1 keer voorkomen op een pagina -->
    <div id="header">...</div>    
 
-   <?php include "includes/footer.php" ?>
+   <?php include "include/footer.php" ?>
 </body>
 </html>

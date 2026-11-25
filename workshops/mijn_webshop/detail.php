@@ -8,14 +8,12 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<?php include "includes/header.php" ?>
-
 <body>
   <div id="container">
 
     <div id="head">
-      <h3>Welcome to Shape.and!</h3>
-      <div id="return"><a href="index.html">back</a></div>
+      <?php include "includes/header.php"?>
+      <div id="return"><a href="index.php">back</a></div>
     </div>
 
     <div id="product_detail">
@@ -27,22 +25,14 @@
         </h2>
         <div id="price">&euro; 20,99</div>
         <div id="buy">
-          <a href="Bestellen">Bestellen</a>
+          <a href="bestellen.php">Bestellen</a>
         </div>
       </div>
     </div>
 
 
 
-    <div id="footer">
-      <ul>
-        <!-- if you want to use lists then you need to put li by the text you want to list -->
-        <li> &copy; Shape.and</li>
-        <li>&trade; Shape.and</li>
-        <div class="collab"><li>in collaboration with <a href="#">Beats</a></li></div>
-      </ul>
-
-    </div>
+    <?php include "includes/footer.php"?>
 
   </div>
 

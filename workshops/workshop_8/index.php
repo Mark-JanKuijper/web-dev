@@ -1,4 +1,4 @@
-<?php include "includes/header.php" ?>
+<?php include "include/header.php" ?>
 
        <div class="container">
 
@@ -46,4 +46,4 @@
         </div>
     <div id="content">hier komen de sneakers.</div> <!-- einde content -->
 
-<?php include "includes/footer.php" ?>
+<?php include "include/footer.php" ?>
