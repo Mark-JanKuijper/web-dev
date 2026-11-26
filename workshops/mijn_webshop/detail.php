@@ -11,7 +11,7 @@
 <body>
   <div id="container">
 
-    <div id="head">
+    <div id="head_detail">
       <?php include "includes/header.php"?>
       <div id="return"><a href="index.php">back</a></div>
     </div>
