@@ -11,7 +11,7 @@
 <body>
   <div id="container">
 
-    <div id="head">
+    <div id="head_detail">
       <?php include "includes/header.php"?>
       <div id="return"><a href="index.php">back</a></div>
     </div>
@@ -50,7 +50,7 @@
 
         <div class="veld">
             <label for="aantal">Aantal</label>
-            <input type="number" name="aantal" id="aantal" min="1" max="10" value="1" required>
+            <input type="number" name="aantal" id="aantal" min="1" max="99" value="1" required>
         </div>
 
         <div class="veld">
