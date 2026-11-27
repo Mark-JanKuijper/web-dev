@@ -15,20 +15,13 @@
   $producten = $pdo->query("SELECT * FROM producten")->fetchAll();
   ?>
 
- <?php
- echo "<pre>";
- print_r($producten[0]);
- echo "</pre>";
- ?>
-
-
 <div class="producten">
   <?php foreach ($producten as $product) { ?>
-  <div class="product">
-    <img src="images/airmax90.jpg" alt="Nike Air Max 90">
-    <h3>Nike Air Max 90</h3>
-    <p class="prijs">&euro; 149,99</p>
-    <a href="detail.php" class="knop">Bekijk</a>
+  <div class="content">
+    <img src="images/1x/<?php echo $product['afbeelding']; ?>" alt="<?php echo $product['naam'] ?>">
+    <div class="name"><?php echo $product['naam']; ?></div>
+    <div class="price">&euro; <?php echo number_format($product['prijs'], 2, ',', '.'); ?></div>
+    <div class="info_koop"><a href="detail.php?id=<?php echo $product['id']; ?>">Info/Koop</a></div>
   </div>
   <?php } ?>
 </div>
