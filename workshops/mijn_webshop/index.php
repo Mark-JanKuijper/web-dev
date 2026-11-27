@@ -26,7 +26,7 @@
   <?php } ?>
 </div>
 
-      <div id="producten">
+      <div class="producten">
         <div class="content">
           <img src="images/1x/circle.png" alt="Circle" />
           <div class="name">Circle</div>

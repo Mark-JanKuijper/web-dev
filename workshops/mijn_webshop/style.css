@@ -71,7 +71,7 @@ body {
 
 
 /* hier zorgt ervoor dat de producten van de website in order en netjes op een grid zijn. */
-#producten {
+.producten {
 
      display:flex;
     flex-wrap: wrap;
