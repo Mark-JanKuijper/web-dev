@@ -30,9 +30,11 @@
       </div>
     </div>
 
-    <h2>Bestellen</h2>
+    
 
     <form class="formulier">
+
+    <h2>Bestellen</h2>
         <div class="veld">
             <label for="voornaam">Voornaam</label>
             <input type="text" name="voornaam" id="voornaam" placeholder="Bijvoorbeeld: Jose" required>
@@ -53,7 +55,7 @@
             <input type="number" name="aantal" id="aantal" min="1" max="99" value="1" required>
         </div>
 
-        <div class="veld">
+        <div class="veld vinkje">
             <input type="checkbox" name="voorwaarden" id="voorwaarden" required>
             <label for="voorwaarden">Ik ga akkoord met de voorwaarden</label>
         </div>
